@@ -1,0 +1,24 @@
+{
+  "balance": {
+    "playerForwardSpeed": 130,
+    "_meta_playerForwardSpeed": { "min": 60, "max": 260, "step": 10, "label": "Player forward speed (px/s)" },
+    "steerEaseFactor": 0.14,
+    "_meta_steerEaseFactor": { "min": 0.02, "max": 0.4, "step": 0.01, "label": "Steering responsiveness" },
+    "rivalSpeedMin": 100,
+    "_meta_rivalSpeedMin": { "min": 40, "max": 260, "step": 10, "label": "Rival min speed (px/s)" },
+    "rivalSpeedMax": 150,
+    "_meta_rivalSpeedMax": { "min": 40, "max": 280, "step": 10, "label": "Rival max speed (px/s)" },
+    "rivalWeaveAmplitude": 55,
+    "_meta_rivalWeaveAmplitude": { "min": 0, "max": 150, "step": 10, "label": "Rival lane-weave range (px)" },
+    "offRoadSlowFactor": 0.4,
+    "_meta_offRoadSlowFactor": { "min": 0.1, "max": 1, "step": 0.05, "label": "Off-road speed penalty factor" },
+    "collisionSlowFactor": 0.45,
+    "_meta_collisionSlowFactor": { "min": 0.1, "max": 1, "step": 0.05, "label": "Collision speed penalty factor" },
+    "collisionSlowMs": 500,
+    "_meta_collisionSlowMs": { "min": 100, "max": 2000, "step": 100, "label": "Collision slow duration (ms)" }
+  },
+  "race": {
+    "countdownSeconds": 3,
+    "_meta_countdownSeconds": { "min": 0, "max": 5, "step": 1, "label": "Pre-race countdown (s)" }
+  }
+}
