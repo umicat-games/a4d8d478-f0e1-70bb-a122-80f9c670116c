@@ -1,0 +1,19 @@
+{
+  "name": "umicat-game",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@umicat/phaser-sdk": "^1.0.0",
+    "phaser": "^3.80.1",
+    "phaser3-rex-plugins": "^1.80.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vite": "^5.0.11"
+  }
+}
